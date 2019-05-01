@@ -1,0 +1,49 @@
+/*
+* Chloe Sylvester
+* 11 April 2019 
+* Semantic Example
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    font-family: monospace; 
+}
+
+h1 { 
+    text-decoration: overline underline; 
+    text-align: center; 
+}
+
+#guitar {
+    float: right; 
+    height: 219px; 
+}
+
+h1 { background-color: aliceblue; color: cadetblue; } /* this shows the title in blue with a background color of a nice light blue */
+
+h3 { background-color: rgb(225,215,253); color: rgb(75,54,137);}
+
+main { background-color: white; color: rgb(255,135,40); } /* this shows my main paragraphs in an orange color and a whitish background color */
+
+footer { background-color: pink; color: palevioletred; } /* this shows my footer or copyright as a purplish pink color */
+
+a:link {
+    color: rgb(8,12,142);
+    text-decoration: underline; 
+}
+
+a:hover, a:focus {
+    color: rgb(24,167,255);
+}
+
+a:visited {
+    color: rgb(146,149,150);
+}
+
